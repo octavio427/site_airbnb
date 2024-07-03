@@ -1,0 +1,157 @@
+/*menu nav */
+
+
+.logo1 {
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.sousmenu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 40px;
+
+}
+.lien3 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  align-items: center;
+}
+
+.lien_logement {
+    margin-right: 20px;
+}
+
+.lien_experiences {
+min-height: 20px;
+}
+.loupe {
+    width: 40px;
+    display: flex;
+    flex-direction: row;
+    border: 10px;
+    
+}
+/*bouton recherche*/
+
+.boutonrecherche {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px; 
+    
+}
+.bouton2 {
+
+    margin-right: 0px;
+    border: 0;
+  line-height: 2.5;
+  padding: 0 40px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.768);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(228, 227, 227, 0.894),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255, 255, 255),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.destination {
+    margin-right: 100px;
+}
+.Voyageur {
+    margin-right: 100px;
+}
+
+/* menu icone*/
+
+.menuicone {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+
+padding-top: 40px;
+padding-left: 40px;
+padding-right: 40px;
+text-align: center;
+
+}
+.icon {
+    height:30px;
+    display: column;
+}
+
+/*bloc images location*/
+
+.visiolocation1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.visiolocation2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 40px;
+        text-align: center;
+
+}
+
+.visiolocation3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 40px;
+            text-align: center;
+            
+}
+.loca {
+        width: 270px;
+        height:270px;
+        display: column;
+        border-radius: 15px;
+}
+.p {
+    color: #000;
+
+}
+
+/* footer*/
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
